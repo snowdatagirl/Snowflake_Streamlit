@@ -47,7 +47,7 @@ ax.pie(df_pie_data['count'], labels=df_pie_data['label'], autopct='%1.1f%%')
 st.pyplot(fig)
 
 # Display bar chart
-col1, col2 = st.columns([2, 3])#st.columns(2)
+col1, col2 = st.columns([2, 3])
 
 with col1:
 
